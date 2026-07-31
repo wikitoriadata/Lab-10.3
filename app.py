@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from utils import preprocessor
+import utils
 
 def run():
     model = joblib.load(open('model.joblib','rb'))
